@@ -32,7 +32,7 @@ const MainPage = () => {
       setTimeout(() => {
         setIsLoading(false);
         addToLog("Call connected.");
-      }, 2000);
+      }, 200000);
     } else {
       setIsValid(false);
       addToLog("Invalid number format.");
